@@ -318,12 +318,28 @@ section {
   align-items: center;
 }
 
-.logosTop {
-  inline-size: 20%;
+.trusted-logo-img {
+    height: 50px;
+    width: auto;
+    margin: 15px;
 }
 
-.logosBottom {
-  inline-size: 40%;
+.trusted-logo-uber {
+    height: 35px;
+    width: auto;
+    margin: 15px;
+}
+
+.trusted-logo-target {
+    height: 60px;
+    width: auto;
+    margin: 15px;
+}
+
+.trusted-logo-nasa {
+    height: 60px;
+    width: auto;
+    margin: 15px;
 }
 
 
