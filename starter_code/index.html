@@ -19,33 +19,32 @@
   </head>
 
   <body>
-    <nav class="navBar">
-      <div class="navBar">
+    <nav class="nav-bar">
+      <div class="nav-drop-down">
         <img src="./images/slack-logo.png" alt="Slack logo" />
-
-        <ul class="navLinks">
-          <li>
-            <a href="#">Product</a>
-          </li>
-          <li>
-            <a href="#">Solutions</a>
-          </li>
-          <li>
-            <a href="#">Resources</a>
-          </li>
-          <li>
-            <a href="#">Pricing</a>
-          </li>
-        </ul>
       </div>
 
-      <div class="navBar">
+      <div class="nav-icons">
         <button>
           <img src="./images/icon-search.png" alt="Search icon" />
         </button>
 
         <button>
           <img src="./images/icon-menu.png" alt="Menu icon" />
+          <!-- <ul class="navLinks">
+            <li>
+              <a href="#">Product</a>
+            </li>
+            <li>
+              <a href="#">Solutions</a>
+            </li>
+            <li>
+              <a href="#">Resources</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+          </ul> -->
         </button>
 
         <ul class="navLinks">
@@ -65,20 +64,24 @@
 
         <p><span>Slack is free to try </span>for as long as you'd like.</p>
       </div>
-      <div class="loginButtons">
-        <button>Sign up with email</button>
+      <div class="signup-button-container">
+        <button class="signup-button-email">
+          <span class="sign-up-button-text"> Sign up with email </span>
+        </button>
 
-        <button class="buttonFlex">
-          <img src="./images/logo-google.png" alt="Google logo" />
-          <span>Sign up with Google</span>
+        <button class="signup-button-google">
+          <span id="signup-button-google-ico">
+            <img src="./images/logo-google.png" alt="Google logo" />
+          </span>
+          <span class="sign-up-button-text">Sign up with Google</span>
         </button>
       </div>
 
-      <div>
+      <div class="hero-img-container">
         <img
           src="./images/hero-product-ui.png"
           alt="Slack app screenshot"
-          class="heroImg"
+          class="hero-img"
         />
       </div>
     </header>
