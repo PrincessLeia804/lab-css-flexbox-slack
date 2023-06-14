@@ -279,7 +279,7 @@ section {
   background-color: #f3eae2;
 }
 
-.trustedFirm {
+.trusted-firm {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -287,7 +287,7 @@ section {
   flex-wrap: nowrap;
 }
 
-.trustedFirm p {
+.trusted-firm p {
   text-align: center;
   font-size: 1.1rem;
   font-weight: 500;
@@ -295,14 +295,14 @@ section {
   text-transform: uppercase;
 }
 
-.logoCTR {
+.logo-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.logoCTRtop {
+.logo-container-top {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -310,7 +310,7 @@ section {
   align-items: center;
 }
 
-.logoCTRbottom {
+.logo-container-bottom {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -324,19 +324,19 @@ section {
     margin: 15px;
 }
 
-.trusted-logo-uber {
+.trusted-firm-logo-uber {
     height: 35px;
     width: auto;
     margin: 15px;
 }
 
-.trusted-logo-target {
+.trusted-firm-logo-target {
     height: 60px;
     width: auto;
     margin: 15px;
 }
 
-.trusted-logo-nasa {
+.trusted-firm-logo-nasa {
     height: 60px;
     width: auto;
     margin: 15px;
@@ -346,7 +346,7 @@ section {
 /* Main
 Connected Teams */
 
-.connected-img {
+.connectedness-img {
     inline-size: 95%;
     margin: 50px 0px;
 }
@@ -355,14 +355,14 @@ Connected Teams */
     float: right;
 }
 
-.connected-flex {
+.connectedness-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
 }
 
-.connected-flex h2 {
+.connectedness-container h2 {
     font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     font-weight: 550;
     line-height: 1.07;
@@ -370,7 +370,7 @@ Connected Teams */
     padding: 25px 10px;
 }
 
-.connected-flex p {
+.connectedness-container p {
     font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     font-weight: 400;
     line-height: 1.5;
@@ -378,7 +378,7 @@ Connected Teams */
     padding: 10px;
 }
 
-.connected-links {
+.connectedness-links {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -386,11 +386,11 @@ Connected Teams */
     align-items: center;
 }
 
-.connected-links img {
+.connectedness-links img {
     width: 3%;
 }
 
-.connected-links a {
+.connectedness-links a {
     color: #2E71A6;
     text-decoration: none;
     font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
@@ -400,7 +400,7 @@ Connected Teams */
     padding: 0px 5px 0px 10px;
 }
 
-.connected-end {
+.connectedness-end {
     padding-bottom: 40px;
 }
 
